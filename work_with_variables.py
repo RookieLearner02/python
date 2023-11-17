@@ -1,0 +1,11 @@
+name = input("What is your name? ")
+title = input("What is your title of the job? ")
+programming_yrs = input("What is your number of years of experience in programming? ")
+company_name = input("What is the name of your company? ")
+freelancer_yrs = input("What is your number of years of experience in freelancing? ")
+
+print("Hi, My name is " + name + " and I am a")
+print(title)
+print("My skill set includes programming and Test Automation")
+print(programming_yrs + " years at " + company_name + " as a manual tester")
+print("and over " + freelancer_yrs + " years as Test freelancer")
